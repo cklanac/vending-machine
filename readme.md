@@ -31,3 +31,10 @@ npm install
 ``` bash
 ionic serve
 ```
+In Chrome Dev Tools, enable [device mode](https://developers.google.com/web/tools/chrome-devtools/iterate/device-mode/) to view simulated mobile and responsive versions
+
+
+> To view in simulated mobile devices run:
+``` bash
+ionic serve --lab    
+```
