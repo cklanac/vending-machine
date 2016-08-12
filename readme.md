@@ -1,8 +1,11 @@
-## Requirements
-* Node and npm
-* git
+## Live Demo
+A live demo version is available on the [gh-pages branch](https://cklanac.github.io/vending-machine/www/index.html):
 
 ## Installation
+
+### Requirements
+* git
+* Node and npm
 
 #### Clone repo 
 ``` bash
