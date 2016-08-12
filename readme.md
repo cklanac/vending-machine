@@ -9,9 +9,10 @@
 git clone https://github.com/cklanac/vending-machine.git
 ```
 
-#### Install Ionic CLI Terminal
+#### Install Ionic CLI and Cordova
 ``` bash
 npm install -g ionic@beta
+npm install -g cordova
 ```
 
 #### In the project directory Install dependencies
