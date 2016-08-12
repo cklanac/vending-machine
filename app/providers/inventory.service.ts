@@ -11,7 +11,7 @@ export class InventoryService {
   public products: Product[] = [];
   observable: Observable<Product>;
   private productObserver: any;
-  private dataUrl = '/data/inventory.json';
+  private dataUrl = 'data/inventory.json';
 
   constructor(private http: Http) {
     this.observable = new Observable<Product>(observer => {
