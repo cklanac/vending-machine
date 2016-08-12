@@ -11,7 +11,7 @@ export class PurchasePage {
   private product;
   private deposited: number = 0;
   private ccNumber: number;
-  private mode: string = 'credit';
+  private mode: string = 'cash';
 
   constructor(
     public params: NavParams,
