@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Pick
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+
+  <ion-list>
+
+    <ion-item *ngFor="let product of products; let i = index" (click)="purchase({product:product})">
+      
+       
+      <ion-thumbnail item-left>
+        <img src="img/{{product.imageUrl}}">
+      </ion-thumbnail>
+      <h2>{{product.name | slice: 0:35 }}<span [hidden]="product.name.length < 35">...</span></h2>
+      <h3>{{product.quantity}} remaining</h3>
+      
+      <ion-badge item-right>
+        {{ product.price | currency:'USD':2:'1.2-2'}} <!--currency pipe: minIntegerDigits.minFractionDigits-maxFractionDigits-->
+      </ion-badge>
+
+      <ion-badge *ngIf="product.quantity === 0" item-right danger>Sold Out</ion-badge>
+            
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
