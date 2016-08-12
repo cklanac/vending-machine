@@ -46,7 +46,7 @@ export class PurchasePage {
       var res = this.inventory.decrementProduct(this.product);
       if (res) {
         this.dispenseProduct();
-        this.notifyUser('Not Available', 'Your deposit has been returned');
+        this.notifyUser('Item Dispensed!', 'Thank you for your business.');
       } else {
         this.notifyUser('Not Available', 'Your credit card has not been charged');
       }
