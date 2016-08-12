@@ -10,7 +10,7 @@ import {TransactionService} from '../../providers/transaction.service';
 export class PurchasePage {
   private product;
   private deposited: number = 0;
-  private ccNumber: number = 1234567890123456;
+  private ccNumber: number;
   private mode: string = 'credit';
 
   constructor(
