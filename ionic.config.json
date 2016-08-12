@@ -1,0 +1,7 @@
+{
+  "name": "vending-machine",
+  "app_id": "",
+  "v2": true,
+  "typescript": true,
+  "defaultBrowser": "google canary"
+}
