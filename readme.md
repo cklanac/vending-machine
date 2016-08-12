@@ -1,6 +1,9 @@
 ## Live Demo
 A live demo version is available on the [gh-pages branch](https://cklanac.github.io/vending-machine/www/index.html):
 
+## Wireframes
+![wireframes](https://github.com/cklanac/vending-machine/blob/master/vending-machine-wireframes.png "Vending Machine Wireframes")
+
 ## Installation
 
 ### Requirements
